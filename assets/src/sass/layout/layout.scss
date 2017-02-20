@@ -14,6 +14,10 @@ $header-footer-height: 50px;
   flex-flow: row;
 }
 
+.js-try {
+  background-color: #7BCCB5 !important;
+}
+
 #sidebar1 {
   flex-basis: 20%;
   order: 1;
@@ -30,6 +34,13 @@ $header-footer-height: 50px;
   background-color: green;
   flex-basis: 60%;
   order: 2;
+  display: flex;
+  flex-flow: column;
+
+  #js-try {
+    align-self: center;
+    justify-content: center;
+  }
 }
 
 #footer {

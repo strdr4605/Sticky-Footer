@@ -3,6 +3,8 @@ body {
   padding: 0; }
 
 .site {
+  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
+  -ms-flex-direction: column;
   flex-direction: column; }
